@@ -1,1 +1,1 @@
-docker build -t sdcovid:0.1.0 .
+docker build -t sdcovid:0.2.0 .
