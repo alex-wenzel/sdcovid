@@ -14,10 +14,10 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
 server = app.server
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1(children='San Diego County COVID-19 Cases'),
 
     html.Div(children='''
-        Dash: A web application framework for Python.
+        Updated 4/2/2020 at 11:08 PM Pacific | Contact Twitter: @alextwenzel
     '''),
 
     dcc.Graph(
